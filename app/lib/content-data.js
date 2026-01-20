@@ -266,3 +266,9 @@ export function getPortfolioBySlug(slug) {
 export function getAllPortfolio() {
   return portfolioData;
 }
+
+export function searchArticles(query, articles) {
+  return articles.filter(article =>
+    article.title.toLowerCase().includes(query.toLowerCase())
+  )
+}
