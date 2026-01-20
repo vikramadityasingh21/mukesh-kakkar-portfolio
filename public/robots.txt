@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mukeshkakkar.com/sitemap.xml
